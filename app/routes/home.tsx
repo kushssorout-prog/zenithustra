@@ -2,13 +2,13 @@ import type { Route } from "./+types/home";
 
 export function meta(_: Route.MetaArgs) {
   return [
-    { title: "Zenithustra — Build Real. Grow Real. Scale Real." },
+    { title: "Zenithustra · ACCRNOVA Group — Build Real. Grow Real. Scale Real." },
     {
       name: "description",
       content:
         "Zenithustra Private Limited builds agritech management systems, gym platforms, mobile apps, and physical infrastructure. A NexLogos ACCRNOVA Group company.",
     },
-    { property: "og:title", content: "Zenithustra — Build Real. Grow Real. Scale Real." },
+    { property: "og:title", content: "Zenithustra · ACCRNOVA Group — Build Real. Grow Real. Scale Real." },
     {
       property: "og:description",
       content:
@@ -283,6 +283,7 @@ export default function Home() {
             <span className="z-brand-sub">Private Limited</span>
           </div>
         </a>
+        <a href="https://accrnova.uk" style={{fontSize:"10px",color:"#C9952A",border:"1px solid rgba(201,149,42,0.3)",padding:"2px 8px",borderRadius:"100px",textDecoration:"none",marginLeft:"8px"}}>ACCRNOVA Group</a>
         <div className="z-nav-links">
           <a href="#about" className="z-nav-link">About</a>
           <a href="#verticals" className="z-nav-link">Verticals</a>
@@ -640,6 +641,15 @@ export default function Home() {
             <a href="https://axiom-landing-d1wced.camelai.app" className="z-footer-link" target="_blank" rel="noopener noreferrer">Axiom</a>
           </div>
           <p className="z-footer-copy">© 2026 Zenithustra Private Limited. All rights reserved.</p>
+          <div style={{borderTop:"1px solid rgba(255,255,255,0.06)",marginTop:"24px",paddingTop:"20px",textAlign:"center"}}>
+            <a href="https://accrnova.uk" style={{color:"#C9952A",fontSize:"13px",fontWeight:600,textDecoration:"none"}}>⬡ ACCRNOVA Group</a>
+            <span style={{color:"#4a5568",fontSize:"12px",margin:"0 12px"}}>·</span>
+            <a href="https://pvt.accrnova.uk" style={{color:"#6B7280",fontSize:"12px",textDecoration:"none"}}>ACCRNOVA Pvt Ltd</a>
+            <span style={{color:"#4a5568",fontSize:"12px",margin:"0 8px"}}>·</span>
+            <a href="https://aryasolon.accrnova.uk" style={{color:"#6B7280",fontSize:"12px",textDecoration:"none"}}>AryaSolon</a>
+            <span style={{color:"#4a5568",fontSize:"12px",margin:"0 8px"}}>·</span>
+            <a href="https://safe.accrnova.uk" style={{color:"#6B7280",fontSize:"12px",textDecoration:"none"}}>ACCRNOVA Safe Plus</a>
+          </div>
         </div>
       </footer>
 
